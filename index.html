@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Laws Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cyber Laws Quiz 🤓</h1>
+        <p>Learn about your rights in the digital world! 🌐</p>
+    </header>
+    <main>
+        <div id="start-container">
+            <h2>Welcome to the Cyber Laws Quiz! 🎉</h2>
+            <p>Enter your name to start the fun:</p>
+            <input type="text" id="username" placeholder="Your Name" required>
+            <button onclick="startQuiz()">Start Quiz 🚀</button>
+        </div>
+        <div id="quiz-container" class="hidden">
+            <div id="progress-bar">
+                <div id="progress"></div>
+            </div>
+            <div id="question"></div>
+            <div id="choices"></div>
+        </div>
+        <div id="result-container" class="hidden">
+            <h2>Your Score: <span id="score"></span></h2>
+            <button onclick="restartQuiz()">Restart 🔄</button>
+            <button onclick="shareResult()">Share 📤</button>
+            <button onclick="downloadResult()">Download 📥</button>
+        </div>
+    </main>
+    <footer>
+        <p>© 2023 CLE Mid Terms | Created by Jaysinh, Harsh, Vivek, Vaishnavi</p>
+        <p>Share your score on Instagram! 📸 #CyberLawsQuiz</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
